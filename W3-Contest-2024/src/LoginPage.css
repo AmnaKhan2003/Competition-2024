@@ -1,0 +1,64 @@
+.login-page {
+    background-color: #121212; 
+    color: #fff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h2 {
+    color: #00FF00; 
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  form {
+    background-color: #1e1e1e; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    background-color: #333; 
+    color: #fff; 
+    border: 1px solid #00FF00; 
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #00FF00; 
+    outline: none;
+  }
+  
+  button {
+    background-color: #00FF00; 
+    color: #121212; 
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left:0.2rem;
+  }
+  
+  button:hover {
+    background-color: #009900; 
+  }
+  
+  button:active {
+    background-color: #00cc00; 
+  }
+  
